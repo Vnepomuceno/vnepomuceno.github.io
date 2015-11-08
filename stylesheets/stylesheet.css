@@ -403,3 +403,10 @@ small {
   width: auto;
   display: inline-block;
 }
+
+.companyDescriptionDiv {
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  margin-bottom: 20px;
+}
