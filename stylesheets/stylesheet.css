@@ -374,7 +374,7 @@ footer a:hover {
 
 /* CUSTOM
 ================================================== */
-#fidelidadeRange {
+#fidelidadeRange, #sightsRange {
   font-style: italic;
 }
 
@@ -387,6 +387,13 @@ small {
 }
 
 .jobTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+}
+
+.degreeTitle {
   font-size: 18px;
   font-weight: bold;
   color: #333;
@@ -409,4 +416,21 @@ small {
   padding: 0;
   overflow: auto;
   margin-bottom: 20px;
+}
+
+.degreeDescriptionDiv {
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.projectTitle a {
+  font-weight: bold;
 }

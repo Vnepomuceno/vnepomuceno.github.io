@@ -18,5 +18,5 @@ function getDifferenceDatesNatLang(firstDate, secondDate) {
 	var totalYears = getDiffDatesInYears(firstDate, secondDate);
 	var deltaMonths = Math.round((getDiffDatesInDays(firstDate, secondDate) - (totalYears * 365)) / 30)
 	return totalYears + ' year' + (totalYears == 1 ? '' : 's')
-		+ ' and ' + deltaMonths + ' month' + (deltaMonths == 1 ? '' : 's');
+		+ (deltaMonths == 0 ? '' : ' and ' + deltaMonths + ' month' + (deltaMonths == 1 ? '' : 's'));
 }
