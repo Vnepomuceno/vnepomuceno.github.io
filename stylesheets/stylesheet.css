@@ -381,3 +381,25 @@ footer a:hover {
 a {
   text-decoration: underline;
 }
+
+small {
+  font-size: 13px;
+}
+
+.jobTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0px;
+}
+
+.sectionTitle {
+  padding: 5px 10px;
+  margin: 35 0 15 0;
+  font-size: 20px;
+  font-weight: bold; 
+  background-color: #D5000B;
+  color: white;
+  width: auto;
+  display: inline-block;
+}
