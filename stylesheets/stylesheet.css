@@ -442,3 +442,12 @@ small {
 #summaryContainer img {
   float: right;
 }
+
+.contactLink {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.fa {
+  color:black;
+}
